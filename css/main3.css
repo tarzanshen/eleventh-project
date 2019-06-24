@@ -1,0 +1,120 @@
+.head-icon {
+  position: absolute;
+  margin-top: 10px;
+  width: 34px;
+  box-shadow: 7px 21px 0 1px white,  7px 32px 0 1px white,  7px 8px 0 1px white;
+  zoom: 0.8;
+  cursor: pointer;
+}
+
+.allof {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.button {
+  display: none;
+}
+
+.all {
+  width: 159%;
+}
+
+.a00 {
+  position: absolute;
+  width: 37%;
+  height: 400px;
+  margin-left: -37%;
+  transition: 2s;
+}
+
+.body-right {
+  width: 63%;
+  margin-left: 0;
+  transition: 2s;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.button:checked ~ .a00 {
+  margin-left: 0;
+}
+
+.button:checked ~ .body-right {
+  margin-left: 400px;
+}
+
+.button:checked ~ .head-span {
+  left: 60%;
+}
+
+.button:checked ~ .head-icon {
+  left: 60%;
+}
+
+.head {
+  height: 50px;
+}
+
+.head-span {
+  width: 39px;
+  height: 43px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.main-bottom-all {
+  padding-bottom: 8.05rem;
+}
+
+.main-padding {
+  padding-top: 1rem;
+}
+
+.main-margin {
+  margin-top: 2rem;
+}
+
+.main-lineheight {
+  line-height: 4;
+}
+
+.main-right {
+  top: -11px;
+  right: 6px;
+}
+
+.main-header-border {
+  border: 1px solid #dedede;
+}
+
+.main-bottom {
+  border-bottom: 1px solid #FBB435FF;
+}
+
+.main-middle {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.footer {
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.footer li {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50px;
+  border-radius: 1px solid #9a9a9a;
+  background-color: #f0f0f0;
+  margin-bottom: 1rem;
+}
+
+.footer li:hover {
+  background-color: #29bde0;
+}
