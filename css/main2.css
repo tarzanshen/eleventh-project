@@ -8,7 +8,9 @@ a {
   text-decoration: none;
   color: white;
 }
-
+.padding-t{
+  padding-bottom: 114px;
+}
 .head-icon-left {
   width: 51px;
   height: 42px;
@@ -31,10 +33,18 @@ a {
 .main {
   width: 353px;
   height: 206px;
-  background: url(../image/06.png) no-repeat;
+  background: url(../image/14.png) no-repeat;
   zoom: 0.7;
 }
-
+.main-logo-1 {
+  width: 91px;
+  height: 83px;
+  /* display: inline-block; */
+  position: absolute;
+  left: 137px;
+  top: 35px;
+  background: url(../image/15.png) no-repeat;
+}
 .main-logo {
   margin-top: 37px;
 }
@@ -58,8 +68,9 @@ a {
   margin-right: 39px;
 }
 
-.main-profession-left :nth-child(4) {
-  margin-right: 41px;
+.main-profession-left span:nth-child(4) {
+  letter-spacing: 1px;
+  margin-right: 36px;
 }
 
 .main-profession-bottom {
