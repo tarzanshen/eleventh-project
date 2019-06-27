@@ -1,5 +1,10 @@
+a{
+    text-decoration: none;
+}
+@import 'base.css';
 .head-icon{
     position: absolute;
+    left: 0;
     margin-top: 10px;
     width: 34px;
     box-shadow: 
@@ -7,7 +12,18 @@
     7px 32px 0 1px white, 
     7px 8px 0 1px white;
     zoom: 0.8;
+    transition: left 2s;
     cursor: pointer;
+}
+.triangle{
+    position: absolute;
+    right: 0;
+    top: 6px; 
+    right: -3px;
+    border: 4px solid  transparent;
+    border-left-color:#FBB435FF;
+    zoom: 4.6;
+    
 }
 .allof{
     overflow: hidden;
@@ -26,16 +42,45 @@
     width: 37%;
     // float: left;
     height: 400px;
-    margin-left: -37%;
-    transition: 2s;
+    left: -37%;
+    transition: left 2s;
 }
 
+.head-icon-1 {
+    width: 29px;
+    height: 29px;
+    background: url(../image/a1.png) no-repeat;
+}
+.head-icon-2 {
+    width: 29px;
+    height: 29px;
+    background: url(../image/a2.png) no-repeat;
+}
+.head-icon-3 {
+    width: 29px;
+    height: 29px;
+    background: url(../image/a3.png) no-repeat;
+}
+.head-icon-4 {
+    width: 29px;
+    height: 29px;
+    background: url(../image/a4.png) no-repeat;
+}
+.head-icon-right {
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    border-left: 1px solid transparent;
+    border-right: 3px solid #29bde0;
+    border-top: 3px solid #29bde0;
+    border-bottom: 1px solid transparent;
+}
 .body-right{
     // float: left;
 
     width: 63%;
     margin-left: 0;
-    transition: 2s;
+    transition:  2s;
 }
 
 .flex-box{
@@ -44,21 +89,22 @@
 
 
 .button:checked ~ .a00{
-    margin-left: 0;
+    left: 0;
     // transition: 2s;/
 }
 
 .button:checked ~ .body-right{
-    margin-left: 400px
+    margin-left: 23.5%;
 }
 
 
 
 .button:checked ~ .head-span{
-   left:60%;
+   left:38%;
 }
 .button:checked ~ .head-icon{
-    left:60%;
+    left:38%;
+    transition: left 2s;
  }
 .head{
     height: 50px;
@@ -67,6 +113,7 @@
     width: 39px;
     height: 43px;
     position: absolute;
+    z-index:9999;
     cursor: pointer;
 }
 .main-bottom-all{

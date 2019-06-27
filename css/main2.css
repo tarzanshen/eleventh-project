@@ -4,6 +4,11 @@
   padding-bottom: 1rem;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .head-icon-left {
   width: 51px;
   height: 42px;
@@ -51,6 +56,10 @@
 
 .main-profession-left span {
   margin-right: 39px;
+}
+
+.main-profession-left :nth-child(4) {
+  margin-right: 41px;
 }
 
 .main-profession-bottom {

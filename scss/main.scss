@@ -1,6 +1,9 @@
 .head-auto{
     width:90%;
 }
+a{
+    text-decoration: none;
+}
 .head-icon-left
 {
     margin-top: 6px;
@@ -95,15 +98,15 @@
     width: 6vw;
     height: 5vw;
     background: url(../image/02.png) no-repeat;
-    background-size: 74%;
-    background-position: 4px 0;
+    background-size: 90% 90%;
+    background-position: 2px 2px;
 }
 .main-icon-botto3{
     width: 6vw;
     height: 5vw;
     background: url(../image/03.png) no-repeat;
-    background-size: 78%;
-    background-position: 4px 0;
+    background-size: 90% 90%;
+    background-position: 2px 2px;
 }
 .main-icon-botto4{
     width: 6vw;
